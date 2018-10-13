@@ -1,0 +1,12 @@
+[package]
+name = "paperacers"
+version = "0.1.0"
+authors = ["Gustaf Hallberg <ghallberg@gmail.com>"]
+
+[dependencies]
+itertools = "0.7.3"
+
+[dependencies.sdl2]
+version = "0.31"
+default-features = false
+features = ["gfx"]
